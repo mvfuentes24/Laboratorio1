@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Tech Emporium</title>
+    </head>
+    <body>
+        <header>
+            <h1>Tech Emporium</h1>
+            <nav>
+                <ul>
+                    <li> 
+                       <a href="http://127.0.0.1:5500/Laboratorio1/index.html">Principal</a> 
+                    </li>
+                    <li>
+                        <a href="http://127.0.0.1:5500/Laboratorio1/product.html">Producto</a>
+                    </li>
+                    <li> 
+                        <a href="http://127.0.0.1:5500/Laboratorio1/contact.html">Contacto</a>
+                    </li>
+
+                </ul>
+            </nav>
+        </header>
+        <hr>
+        <main>
+            <aside>
+                <fieldset>
+                    <label for="categoria">Categoria:</label>
+                    <select name="categorias" id="category">
+                        <option value="">Seleccione una categoria</option>
+                        <option value="telefono">Telefono</option>
+                        <option value="electrodomesticos">Electrodomesticos</option>
+                        <option value="laptop">Laptop</option>
+                        <option value="reloj">Reloj</option>
+                    </select>
+
+                    <label for="precio">Rango de precio:</label>
+                    <input type="range" id="precio" name="precio" min="10" max="5000" value="5">
+
+                    <label>Marcas:</label>
+                    <label><input type="checkbox" name="marca" value="marca">Todas las marcas</label>
+                    <label><input type="checkbox" name="marca" value="marca">iPhone</label>
+                    <label><input type="checkbox" name="marca" value="marca">JBL</label>
+
+
+
+
+                </fieldset>
+                
+
+            </aside>
+            <section id="productos">
+                <h2>Productos Destacados</h2>
+                <article>
+                    <h3>Audífonos JBL</h3>
+                    <div class ="figure"> 
+                        <img src="https://images-na.ssl-images-amazon.com/images/I/61kFL7ywsZS._AC_UL375_SR375,375_.jpg" alt="audifonos fondo blanco" width="400">
+                        <p>Los audífonos inalámbricos Tune 510BT destacan por su reconocido sonido JBL Pure Bass, que se puede encontrar en los eventos más famosos de todo el mundo.</p>
+                        <span style="color:blue">$40</span>
+                    </div>
+                    <div style="margin-top: 20px;">
+                        <a href="http://127.0.0.1:5500/Laboratorio1/product.html">
+                            <button>Detalles</button>
+                        </a> 
+                    </div>
+
+                </article>
+                <hr>
+                <article>
+                    <h3>Apple watch</h3>
+                    <div class ="figure">
+                        <img src="https://m.media-amazon.com/images/I/61XHEBnByBL.jpg" alt="reloj rosado fondo blanco" width="400">
+                        <p>Diseño elegante, pantalla brillante: la elegante construcción de acero inoxidable combina el estilo clásico con la durabilidad del entrenamiento</p>
+                        <span style="color:blue">$500</span>
+                    </div>
+                    <div style="margin-top: 20px;">
+                        <a href="http://127.0.0.1:5500/Laboratorio1/product.html">
+                            <button>Detalles</button>
+                        </a> 
+                    </div>
+                </article>
+                <hr>
+                <article>
+                    <h3>iPhone 17 PRO MAX</h3>
+                    <div class ="figure"> 
+                        <img src="https://m.media-amazon.com/images/I/71YBR7rf6sL._UF1000,1000_QL80_.jpg" alt="iphone dos caras fondo blanco" width="400">
+                        <p>Diseno unibody para una potencia fuera de serie. El Ceramic Shield protege la parte trasera del iPhone 17 Pro Max 
+                            y la hace cuatro veces más resistente a las roturas.
+                        </p>
+                        <span style="color:blue">$40</span>
+                    </div>
+                    <div style="margin-top: 20px;">
+                        <a href="http://127.0.0.1:5500/Laboratorio1/product.html">
+                            <button>Detalles</button>
+                        </a> 
+                    </div>
+
+
+
+                </article>
+                <hr>
+
+
+
+                
+            </section>
+            
+            
+
+        </main>
+        <footer>
+            Reservar derechos
+        </footer>
+    
+    </body>
+</html>
